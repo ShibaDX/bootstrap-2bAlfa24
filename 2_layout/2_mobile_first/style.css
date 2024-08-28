@@ -1,0 +1,27 @@
+h1 { /* celular pequeno */
+    color: black;
+}
+
+@media (min-width: 576px) { /* celular */
+    h1 {
+        color:darkorange;
+    }
+}
+
+@media (min-width: 768px) { /* tablet */
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-width: 992px) { /* laptop */
+    h1 {
+        color: greenyellow;
+    }
+}
+
+@media (min-width: 1200px) { /* desktop */
+    h1 {
+        color: crimson;
+    }
+}
